@@ -24,9 +24,9 @@ O `commit` só envia os arquivos que passaram pelo `git add` &nbsp;
 - [ x ] Adiciona novas funcionalidades no seu projeto em produção.
 - [ x ] Deletar o branch da nova funcionalidade, depois que ela já foi aplicada.
 
-`git branch [nome da ramificação]` - cria uma nova ramificação, fora da master.
-`git checkout [nome da branch]` - muda de uma branch para outra.
-`git branch` - visualiza todas as linhas do tempo criada.
+* `git branch [nome da ramificação]` - cria uma nova ramificação, fora da master.
+* `git checkout [nome da branch]` - muda de uma branch para outra.
+* `git branch` - visualiza todas as linhas do tempo criada.
 
 Após passar `ls -al` no ramo `master` pode-se perceber que o `cart.html` não está presente.
 
@@ -38,3 +38,4 @@ Após passar `ls -al` no ramo `master` pode-se perceber que o `cart.html` não e
 `git remote add origin [URL de criação do repositório]` - informa ao repositório local para onde ele deve enviar os arquivos.
 `git remote -v` - visualiza todos os remotes já feitos.
 `git push -u origin master` - empurra o repositório local para a nuvem do GitHub.
+`git config credential.helper store` - pega o seu login e senha para não precisar escrever mais.
