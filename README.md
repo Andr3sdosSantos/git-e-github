@@ -20,22 +20,22 @@ O `commit` só envia os arquivos que passaram pelo `git add`.
 * `git status` - mostra alterações no arquivo, edição, remoção, etc... 
 * `git show [número do commit]` ou apenas `git show` -  mostra informações de um commit específico.
 
- [ x ] Começar uma nova funcionalidade no projeto sem inteferir em outra.
- [ x ] Adiciona novas funcionalidades no seu projeto em produção.
+ [ x ] Começar uma nova funcionalidade no projeto sem inteferir em outra.  <br />
+ [ x ] Adiciona novas funcionalidades no seu projeto em produção.  <br />
  [ x ] Deletar o branch da nova funcionalidade, depois que ela já foi aplicada.
 
 * `git branch [nome da ramificação]` - cria uma nova ramificação, fora da master.
 * `git checkout [nome da branch]` - muda de uma branch para outra.
 * `git branch` - visualiza todas as linhas do tempo criada.
 
-Após passar `ls -al` no ramo `master` pode-se perceber que o `cart.html` não está presente.
+Após passar `ls -al` no ramo `master` pode-se perceber que o `cart.html` não está presente. <br />
 
 `git merge [nome da ramificação]` - chamando a ramificação para a `master`, une o master e o branch secundário.
 `git branch -D [nome da branch]` - deleta a branch que foi passada.
 
  [ x ] Colocando o projeto na nuvem.
 
-* `git remote add origin [URL de criação do repositório]` - informa ao repositório local para onde ele deve enviar os arquivos.
-* `git remote -v` - visualiza todos os remotes já feitos.
-* `git push -u origin master` - empurra o repositório local para a nuvem do GitHub.
-* `git config credential.helper store` - pega o seu login e senha para não precisar escrever mais.
+* `git remote add origin [URL de criação do repositório]` - informa ao repositório local para onde ele deve enviar os arquivos.  <br />
+* `git remote -v` - visualiza todos os remotes já feitos. <br />
+* `git push -u origin master` - empurra o repositório local para a nuvem do GitHub. <br />
+* `git config credential.helper store` - pega o seu login e senha para não precisar escrever mais.  <br />
