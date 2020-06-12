@@ -8,7 +8,7 @@ https://git-scm.com/download
 
 ### Scenes
 
- [ x ] Você pode criar pontos na linha do tempo do seu projeto.
+ [ x ] Você pode criar pontos na linha do tempo do seu projeto.  <br />
  [ x ] Você tem total controle sobre as mudanças feitas, pode verificá-las
 
 * `git init` - inicializa um repositório no localhost(local onde fica gravado as alterações do projeto). 
