@@ -4,7 +4,7 @@ Guia prático para iniciantes.
 
 ### Instalação
 
-https://git-scm.com/download
+https://git-scm.com/download - Se você estiver no Linux, poupe tempo, dê um: `sudo apt install git`
 
 ### Scenes
 
