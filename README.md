@@ -30,8 +30,8 @@ O `commit` só envia os arquivos que passaram pelo `git add`.
 
 Após passar `ls -al` no ramo `master` pode-se perceber que o `cart.html` não está presente. <br />
 
-`git merge [nome da ramificação]` - chamando a ramificação para a `master`, une o master e o branch secundário.
-`git branch -D [nome da branch]` - deleta a branch que foi passada.
+* `git merge [nome da ramificação]` - chamando a ramificação para a `master`, une o master e o branch secundário.
+* `git branch -D [nome da branch]` - deleta a branch que foi passada.
 
  [ x ] Colocando o projeto na nuvem.
 
