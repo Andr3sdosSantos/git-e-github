@@ -11,14 +11,14 @@ https://git-scm.com/download
 - [ x ] Você pode criar pontos na linha do tempo do seu projeto.
 - [ x ] Você tem total controle sobre as mudanças feitas, pode verificá-las
 
-`git init` - inicializa um repositório no localhost(local onde fica gravado as alterações do projeto).
-`git add [nome do arquivo.formato do arquivo]` - adiciona um novo ponto na história.
-`git add .` - adiciona todas as alterações feitas no projeto.
-`git commit -m "Texto"` - leva a alteração ao repositório.
-O `commit` só envia os arquivos que passaram pelo `git add`
-`git log` - mostra os pontos na história do projeto.
-`git status` - mostra alterações no arquivo, edição, remoção, etc...
-`git show [número do commit]` ou apenas `git show` -  mostra informações de um commit específico.
+`git init` - inicializa um repositório no localhost(local onde fica gravado as alterações do projeto). &nbsp;
+`git add [nome do arquivo.formato do arquivo]` - adiciona um novo ponto na história. &nbsp;
+`git add .` - adiciona todas as alterações feitas no projeto. &nbsp;
+`git commit -m "Texto"` - leva a alteração ao repositório. &nbsp;
+O `commit` só envia os arquivos que passaram pelo `git add` &nbsp;
+`git log` - mostra os pontos na história do projeto. &nbsp;
+`git status` - mostra alterações no arquivo, edição, remoção, etc... &nbsp;
+`git show [número do commit]` ou apenas `git show` -  mostra informações de um commit específico. &nbsp;
 
 - [ x ] Começar uma nova funcionalidade no projeto sem inteferir em outra.
 - [ x ] Adiciona novas funcionalidades no seu projeto em produção.
